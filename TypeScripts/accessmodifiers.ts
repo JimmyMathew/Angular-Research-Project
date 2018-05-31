@@ -1,4 +1,11 @@
 import{ PointerModule} from './point'
+
+
+//We are using this from another module
+let pm=new PointerModule();
+pm.X=5;
+
+
 class Pointerspeed{
    private x:number;
    private y:number;
@@ -43,6 +50,6 @@ console.log(pret.X);
 //pret.X=-5;// To throw an exception
 pret.X=8;//Legit value
 
-//We are using this from another module
-let pm=new PointerModule();
-pm.X=5;
+
+
+
