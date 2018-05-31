@@ -10,8 +10,12 @@ let withParams=(message)=>{console.log(message);}
 let  noCurlyBraces=(message)=>console.log(message);
 
 
+let myMethod=(messsage:string)=>console.log(messsage)
+
 
 //Method calls
 noParams();
 withParams("Mathew");
 noCurlyBraces("Fusion");
+
+myMethod("jimmy");

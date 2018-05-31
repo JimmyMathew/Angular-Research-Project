@@ -1,3 +1,5 @@
+"use strict";
+exports.__esModule = true;
 var Pointerspeed = /** @class */ (function () {
     function Pointerspeed(x, y) {
         this.x = x;
@@ -41,3 +43,6 @@ var pret = new Prettypointer(1, 2);
 console.log(pret.X);
 //pret.X=-5;// To throw an exception
 pret.X = 8; //Legit value
+//We are using this from another module
+// let pm=new PointerModule();
+// pm.X=5;
