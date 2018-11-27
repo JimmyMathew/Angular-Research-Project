@@ -22,3 +22,6 @@ function disp(name:string|string[]) {
  disp("mark") 
  console.log("Printing names array....") 
  disp(["Mark","Tom","Mary","John"])
+
+
+ 
