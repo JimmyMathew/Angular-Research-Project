@@ -1,0 +1,30 @@
+//Jimmy Mathew::110499-01 - Checkmarx issues fix::03122018
+
+
+Necessary sanitization has been done. The session variable is used only to string compare inside the application.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

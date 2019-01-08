@@ -8,3 +8,4 @@ let f:any[]=[1,true,"jimmy"];
 enum Color{Red=1,Green=2,Blue=3};
 
 var backGroundColor=Color.Red;
+console.log(backGroundColor);

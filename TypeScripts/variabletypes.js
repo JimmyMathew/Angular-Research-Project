@@ -12,3 +12,4 @@ var Color;
 })(Color || (Color = {}));
 ;
 var backGroundColor = Color.Red;
+console.log(backGroundColor);
